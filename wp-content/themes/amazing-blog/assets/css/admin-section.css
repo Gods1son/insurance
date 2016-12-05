@@ -1,0 +1,37 @@
+.admin-button{
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+  margin-top: 8px;
+}
+
+a.cusbtn,
+a.cusbtn:focus {
+  color: #535a5e;
+  font-size: 13px;
+  padding: 11px 20px 12px;
+  background-color: #677673;
+  vertical-align: middle;
+  display: block;
+  text-align: center;
+  clear: both;
+  margin-bottom: 7px;
+  border-radius: 3px;
+  color: #ffffff;
+  outline: none;
+}
+
+a.cusbtn:hover,
+a.cusbtn:active{
+  color: #ffffff;
+  background-color: #677673;
+}
+
+a.theme-update{
+  background-color: #026B9D;
+}
+
+a.theme-demo{
+  background-color: #35AA20;
+}
+

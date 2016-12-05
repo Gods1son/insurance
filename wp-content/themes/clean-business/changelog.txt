@@ -1,0 +1,29 @@
+Change Log
+
+= 0.5 =
+* Bug Fixed: Replace wp_reset_query() with wp_reset_postdata() in featured-slider.php and featured-content.php
+* Bug Fixed: Output Sanitization
+	* Replaced sanitize_key with esc_attr in social-icons.php
+    * Escaped metabox field valuse as they are have apply_filters() on return
+* Bug Fixed: Removed imagesLoaded and added it as dependency script as it is already bundled in code
+* Removed: Theme support for search-form as theme has custom search form
+* Updated: Upgrade Button in customizer with respect to trt decision
+
+= 0.4 =
+* Updated: All instances of http://catchthemes.com changed to https://catchthemes.com
+* Removed: update_option for thumbnail image size and added new image sizes as clean-business-small
+
+= 0.3 =
+* Added editor style support
+* Bug Fixed: Promotion headline link issue (Reported by John)
+* CSS Enhancement:
+** Margin issue in ul, ol, p, pp, pre, blockquote, table
+** Font size and margin changes for heading tags
+** Padding and alignment for table th and td elements
+** Dark color scheme
+
+= 0.2 =
+* Initial Release in CatchThemes.com
+
+= 0.1 =
+* Submitted to WordPress.org for review
