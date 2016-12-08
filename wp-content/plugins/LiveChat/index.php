@@ -7,9 +7,9 @@ Plugin Name: Live Chat
 */
 wp_register_script( 'your_css_and_js1', plugins_url('js/angular.min.js',__FILE__ ));
 wp_enqueue_script('your_css_and_js1');
-wp_register_script( 'your_css_and_js2', plugins_url('js/firebase.js',__FILE__ ));
+wp_register_script( 'your_css_and_js2', "https://www.gstatic.com/firebasejs/3.6.3/firebase.js");
 wp_enqueue_script('your_css_and_js2');
-wp_register_script( 'your_css_and_js3', plugins_url('js/angularfire.min.js',__FILE__ ));
+wp_register_script( 'your_css_and_js3', "https://cdnjs.cloudflare.com/ajax/libs/angularFire/2.1.0/angularfire.js");
 wp_enqueue_script('your_css_and_js3');
 wp_register_script( 'your_css_and_js4', plugins_url('js/main.js',__FILE__ ));
 wp_enqueue_script('your_css_and_js4');
